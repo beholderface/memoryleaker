@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+# https://copier.readthedocs.io/en/stable/configuring/#the-copier-answersyml-file
+_commit: v0.0.9
+_src_path: gh:FallingColors/hexdummy
+author: beholderface
+capitalize_platforms: true
+classname: Memoryleaker
+default_branch: main
+description: Does what it says on the tin.
+display_name: Memoryleaker
+github_repo: memoryleaker
+hexcasting_version: 0.10.3
+homepage_url: https://beholderface.github.io/memoryleaker
+initial_mod_version: 0.0.1
+java_version: 17
+license: MIT
+mappings_name: Yarn
+modid: memoryleaker
+package: net.beholderface.memoryleaker
+sources_url: https://github.com/beholderface/memoryleaker

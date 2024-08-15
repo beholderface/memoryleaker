@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "memoryleaker",
+  "version": "${version}",
+  "name": "Memoryleaker",
+  "description": "Does what it says on the tin.",
+  "authors": [
+    "beholderface"
+  ],
+  "contact": {
+    "homepage": "https://beholderface.github.io/memoryleaker",
+    "sources": "https://github.com/beholderface/memoryleaker"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.beholderface.memoryleaker.fabric.MemoryleakerFabric"
+    ],
+    "client": [
+      "net.beholderface.memoryleaker.fabric.MemoryleakerClientFabric"
+    ]
+  },
+  "mixins": [
+    "memoryleaker-common.mixins.json",
+    "memoryleaker.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraftVersion}",
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "fabric-api": "*",
+    "architectury": ">=${architecturyVersion}"
+  }
+}

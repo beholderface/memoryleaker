@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[${forgeDependencyVersion},)"
+license = "MIT"
+
+[[mods]]
+modId = "memoryleaker"
+version = "${version}"
+displayName = "Memoryleaker"
+logoFile = "icon.png"
+authors = "beholderface"
+description = '''
+Does what it says on the tin.
+'''
+
+[[dependencies.memoryleaker]]
+modId = "forge"
+mandatory = true
+versionRange = "[${forgeDependencyVersion},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.memoryleaker]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${minecraftVersion},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.memoryleaker]]
+modId = "architectury"
+mandatory = true
+versionRange = "[${architecturyVersion},)"
+ordering = "NONE"
+side = "BOTH"
