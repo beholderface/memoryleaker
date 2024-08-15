@@ -5,7 +5,7 @@ import net.minecraft.util.math.random.Random;
 import java.util.*;
 
 public class LeakManager {
-    public static final int interval = 100;
+    public static final int interval = 1200;
     private static final Map<UUID, List<String>> expandingMap = new HashMap<>();
     private static long total = 0;
     public static final String[] wackyStrings = {"why do they call it oven when they of in the cold food of out hot eat the food",
